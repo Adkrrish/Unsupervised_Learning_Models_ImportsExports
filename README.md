@@ -15,14 +15,13 @@ The goal of this project is to segment the dataset into distinct clusters based 
 - **Cluster Evaluation**: Use of performance metrics like Silhouette Coefficient and Davies-Bouldin Index to assess clustering quality.
 - **Optimal Cluster Selection**: Identification of the optimal number of clusters through algorithm evaluation and hyperparameter tuning.
 - **Cluster Characteristics**: In-depth analysis of cluster profiles and patterns for actionable business insights.
-- **Data Preprocessing**: Handling of categorical and numerical data, with feature engineering for enhanced analysis (e.g., creation of `Total_Value`).
+- **Data Preprocessing**: Handling of categorical and numerical data, with feature engineering for enhanced analysis.
 
 ## Dataset
 The dataset used in this project contains a total of 15,000 trade transactions, with a sample size of 5,001 rows selected for analysis. Key variables include:
 
 - **Categorical Variables**: Country, Product, Import/Export, Category, Port, Shipping Method, Supplier, Customer, Payment Terms (nominal and ordinal data).
 - **Non-Categorical Variables**: Quantity, Value, Weight (numerical data).
-- **Derived Variables**: `Total_Value` (calculated as the product of Value and Quantity), for deeper analysis of trade volumes.
 
 The data is stored in CSV format and is structured to reflect international trade transactions over time.
 
