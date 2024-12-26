@@ -39,9 +39,11 @@ The data is stored in CSV format and is structured to reflect international trad
 
 ## Insights and Applications
 - **Cluster Insights**: K-Means, DBSCAN, and Birch produce different insights, with K-Means showing the most distinct clusters based on Quantity and Weight.
-- **Business Applications**: 
-**Targeted Marketing:** Use Cluster 1 ("Low-Volume Transactions") for promoting budget-friendly products and Cluster 4 ("High-Volume, Low-Weight Transactions") for bulk purchase discounts.
-**Inventory Management:** Focus on stocking bulky items for Cluster 3 and lightweight, high-volume products for Cluster 4 to streamline supply chain operations.
+- **Business Applications**:
+
+_**Targeted Marketing:**_ Use Cluster 1 ("Low-Volume Transactions") for promoting budget-friendly products and Cluster 4 ("High-Volume, Low-Weight Transactions") for bulk purchase discounts.
+
+_**Inventory Management:**_ Focus on stocking bulky items for Cluster 3 and lightweight, high-volume products for Cluster 4 to streamline supply chain operations.
 
 ## Contributors
 - **Krishnendu Adhikary**
